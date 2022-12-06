@@ -59,3 +59,4 @@ hist(iris$Petal.Width[iris$Species == "virginica"],
 # restore graphic default parameters so that the
 # graphs are no longer grouped
 par(mfrow = c(1,1))
+
