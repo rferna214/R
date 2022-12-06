@@ -76,3 +76,6 @@ list1
 # create a list that includes a list
 list2 <- list(o1,o2,o3,list1)
 list2
+
+# clear variables in global environment
+rm(list = ls())
