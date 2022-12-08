@@ -96,9 +96,8 @@ plot(dnorm, -3, 3)
 # give plot the dnorm function with options
 plot(dnorm, -3, 3,
     col = "blue",  # color blue
-    lwd = 100,         # wider line length
+    lwd = 10,         # wider line length
     main = "Standard Normal Distribution",
     xlab = "z-scores",
     ylab = "Density"
 )
-
