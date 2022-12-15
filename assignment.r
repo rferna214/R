@@ -41,7 +41,7 @@ plot(ChickWeight$weight[ChickWeight$Diet == 1],
     ylab = "Chick Body Weight (gm)"   
 )
 
-plot(ChickWeight$weight[ChickWeight$Diet == 4],
+plot(ChickWeight$weight[ChickWeight$Diet == 2],
     xlim = c(0,12),
     ylim = c(40, 240),
     col = "blue",  
